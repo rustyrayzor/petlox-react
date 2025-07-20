@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import NavbarS2 from '../../components/NavbarS2/NavbarS2';
 import PageTitle from "../../components/pagetitle/PageTitle";
 import Scrollbar from "../../components/scrollbar/scrollbar";
-import { Button, Grid } from "@mui/material";
+import { Grid } from "@mui/material";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { totalPrice } from "../../utils";

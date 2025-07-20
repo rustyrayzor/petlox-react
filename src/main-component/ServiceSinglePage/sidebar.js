@@ -13,9 +13,6 @@ const ServiceSidebar = (props) => {
         e.preventDefault()
     }
 
-    const ClickHandler = () => {
-        window.scrollTo(10, 0);
-    }
 
     return (
         <div className="col-lg-4 col-md-8">

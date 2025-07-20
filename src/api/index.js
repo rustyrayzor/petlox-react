@@ -1,5 +1,7 @@
 import data from './data.json';
 
-export default () => {
+const getData = () => {
   return data;
 }
+
+export default getData;

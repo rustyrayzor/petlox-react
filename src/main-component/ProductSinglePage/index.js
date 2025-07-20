@@ -24,8 +24,8 @@ const ProductSinglePage =(props) => {
     const [product, setProduct] = useState({});
     
     useEffect(() => {
-        setProduct(Allproduct.filter(Allproduct => Allproduct.slug === String(slug)))
-    }, []);
+        setProduct(Allproduct.filter(product => product.slug === String(slug)))
+    }, [Allproduct, slug]);
     
     const item = product[0];
 

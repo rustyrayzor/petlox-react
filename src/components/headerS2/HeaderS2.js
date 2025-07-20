@@ -8,12 +8,7 @@ import { removeFromCart } from "../../store/actions/action";
 
 
 const HeaderS2 = (props) => {
-    const [menuActive, setMenuState] = useState(false);
     const [cartActive, setcartState] = useState(false);
-
-    const SubmitHandler = (e) => {
-        e.preventDefault()
-    }
 
     const ClickHandler = () => {
         window.scrollTo(10, 0);
